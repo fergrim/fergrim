@@ -1,0 +1,24 @@
+<!-- Missile Explosion heavy 01 -->
+  <effect name="ref_missile_explosion_antimatter_01">
+    <elements>
+      <!-- 6 Lightsources to make sure at liest one is outsite of the mesh -->
+      <element id="1" ref="missile_impact_01_antimatter_macro" forkeffect="none" alignment="normal" duration="10.0" forklod="none"></element>
+      <!-- Explosion Fork Particles-->
+      <element id="8" ref="dummyemitter_macro" forkeffect="missile_explosion_heavy_01" duration="17.0" minscale="7" maxscale="10" forklod="megaeffect"></element>
+      <element id="6" ref="dummyemitter_macro" forkeffect="missile_explo_part1" alignment="random" duration="9.0" minscale="5.0" maxscale="8.0" forklod="mediumeffect"></element>
+	  <element id="2" ref="dummyemitter_macro" forkeffect="punch_through_effect" alignment="object" duration="15.0" minscale="6.0" maxscale="10" forklod="megaeffect"></element>
+      <element id="7" ref="dummyemitter_macro" forkeffect="sparkcloud" alignment="random" duration="20.0" minscale="6.0" maxscale="8.0" forklod="megaeffect"></element>
+
+	  <!-- Area DMG -->
+      <element id="3" ref="effect_dummy_macro" forkeffect="none" duration="4.0" forklod="none">
+        <areadamage range="3000" falloff="1.0" duration="3.0" delay="0" />
+      </element>
+      <!-- Sound -->
+      <element id="4" ref="effect_dummy_macro" forkeffect="none" duration="6.6" forklod="megaeffect">
+        <sound ref="explosion_antimatter"></sound>
+      </element>
+      <element id="5" ref="effect_dummy_macro" forkeffect="none" duration="3.0" forklod="megaeffect">
+        <sound ref="explosion_antimatter"></sound>
+      </element>
+    </elements>
+  </effect>
