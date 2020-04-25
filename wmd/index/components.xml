@@ -1,0 +1,6 @@
+<diff>
+<add sel="/index">
+<entry value="\extensions\wmd\assets\fx\explosioneffects\missile_impact_01_antimatter" name="missile_impact_01_antimatter"/>
+<entry value="\extensions\wmd\assets\props\WeaponSystems\missile\missile_torpedo_antimatter_mk1" name="missile_torpedo_antimatter_mk1" />
+</add>
+</diff>

@@ -1,0 +1,16 @@
+
+
+<diff>
+  <add sel="//soundlibrary">
+	<sound id="explosion_antimatter" description="Explosion big (2 repeats)" repeat="1" is3d="1" preload="1">
+    <sample selection="random">
+      <select start="sfx\explosion\large\massivexplosion"/>
+      <select start="sfx\explosion\large\explosion_33_deep"/>
+      <select start="sfx\explosion\large\expl_l_generic_01"/>
+      <select start="sfx\explosion\large\expl_l_generic_02"/>
+      <select start="sfx\explosion\large\explosion_23"/>
+     </sample>
+    <volume start="1.5" distance="10.0"/>
+  </sound>
+  </add>
+</diff>

@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<components>
+	<component name="missile_impact_01_antimatter" class="effectobject">
+		<source geometry="assets\fx\explosioneffects\missile_impact_01_heavy_data"/>
+		<layers>
+			<layer>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="0" g="0" b="250" range="2500" shadowrange="2500" lighteffect="1" trigger="1" intensity="1">
+						<animations>
+							<animation name="playonce" start="1" end="360"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="linear_float">
+								<key frame="0" value="1"/>
+								<key frame="60" value="1"/>
+								<key frame="360" value="0"/>
+							</lightanimation>
+							<lightanimation name="color" controller="bezier_color">
+								<key frame="0" r="255" g="0" b="87"/>
+								<key frame="60" r="250" g="250" b="255"/>
+								<key frame="120" r="0" g="0" b="255"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="0" y="0" z="30"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni02" shadow="0" r="100" g="100" b="200" range="2000" shadowrange="2000" lighteffect="1" trigger="1" intensity="1">
+						<animations>
+							<animation name="playonce" start="1" end="360"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="linear_float">
+								<key frame="0" value="1"/>
+								<key frame="60" value="1"/>
+								<key frame="250" value="0"/>
+							</lightanimation>
+							<lightanimation name="color" controller="bezier_color">
+								<key frame="0" r="255" g="14" b="87"/>
+								<key frame="60" r="100" g="25" b="255"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="0" y="0" z="-30"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni03" shadow="0" r="100" g="100" b="250" range="2500" shadowrange="2500" lighteffect="1" trigger="1" intensity="1">
+						<animations>
+							<animation name="playonce" start="1" end="360"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="linear_float">
+								<key frame="0" value="1"/>
+								<key frame="60" value="1"/>
+								<key frame="300" value="0"/>
+							</lightanimation>
+							<lightanimation name="color" controller="bezier_color">
+								<key frame="0" r="255" g="174" b="87"/>
+								<key frame="60" r="25" g="25" b="255"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="-30" y="0" z="0"/>
+							<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni04" shadow="0" r="25" g="17" b="187" range="3000" shadowrange="3000" lighteffect="1" trigger="1" intensity="1">
+						<animations>
+							<animation name="playonce" start="1" end="300"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="linear_float">
+								<key frame="0" value="1"/>
+								<key frame="60" value="1"/>
+								<key frame="280" value="0"/>
+							</lightanimation>
+							<lightanimation name="color" controller="bezier_color">
+								<key frame="0" r="255" g="255" b="255"/>
+								<key frame="250" r="25" g="25" b="255"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="30" y="0" z="0"/>
+							<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni05" shadow="0" r="255" g="174" b="87" range="2500" shadowrange="2500" lighteffect="1" trigger="1" intensity="1">
+						<animations>
+							<animation name="playonce" start="1" end="300"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="linear_float">
+								<key frame="0" value="1"/>
+								<key frame="60" value="1"/>
+								<key frame="140" value="0"/>
+							</lightanimation>
+							<lightanimation name="color" controller="bezier_color">
+								<key frame="0" r="255" g="174" b="87"/>
+								<key frame="300" r="255" g="255" b="255"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="0" y="30" z="0"/>
+							<quaternion qx="-0.5" qy="0.5" qz="-0.5000001" qw="-0.5"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni06" shadow="0" r="255" g="174" b="87" range="3500" shadowrange="3500" lighteffect="1" trigger="1" intensity="1">
+						<animations>
+							<animation name="playonce" start="1" end="75"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="linear_float">
+								<key frame="0" value="0"/>
+								<key frame="60" value="1"/>
+								<key frame="300" value="0"/>
+							</lightanimation>
+							<lightanimation name="color" controller="bezier_color">
+								<key frame="0" r="255" g="174" b="87"/>
+								<key frame="60" r="255" g="255" b="255"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="0" y="-30" z="0"/>
+							<quaternion qx="-0.5" qy="0.5" qz="-0.5000001" qw="-0.5"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="effectobject">
+				<offset/>
+			</connection>
+		</connections>
+	</component>
+</components>

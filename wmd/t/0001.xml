@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <language > 
+ <!-- id="44" -->
+<page id="698091" title="Antimatter Torpedo" descr="Antimatter Torpedo" voice="no">
+<!-- name = Heavy Antimatter Torpedo    basename=Heavy Antimatter Torpedo  shortname=Antimatter Torpedo -->
+<!-- heavy antimatter torpedo    <identification name="{698091,1001}" basename="{698091,1002}" shortname="{698091,1003}" makerrace="haktivah" description="{698091,1004}" unique="0" mk="1" /> -->
+ <t id="1001">Jury Rigged Heavy Antimatter Torpedo</t>
+ <t id="1002">Heavy Antimatter Torpedo</t> 
+ <t id="1003">Heavy Antimatter Torpedo</t>
+ <t id="1004"> The heavy antimatter torpedo is the handiwork of a now long dead terrorist weaponsmith famous for his obsession with bigger booms, wanton destruction and his ambivalence in regard to civilian casualties.  A starship power core pushed well beyond the red-line strapped to a heavy torpedo engine.  These are very rare and expensive due to the recklessness and danger involved in even trying to build one, and have been illegal in every corner of the galaxy after the first ones showed their capacity for indiscriminate overkill. A legal quirk makes them legal to produce and to purchase, but illegal to be in possession of.  The bomb is essentially an ungodly amount of raw energy rigged with antimatter converters to transform roughly half of that energy into anti-particles at the moment of impact creating levels of destruction beyond reckoning.  Besides the humanitarian concerns, they were only truly outlawed because of universal fears that spacetime itself could become destabilized upon their detonation, causing irreparable damage to the fabric of spacetime on a galactic scale.  It is feared the Xenon may have devised the means for producing these warheads, however experts on the robotic death-machines believe that using their manufacturing methods to do so would require almost ten times the raw energy and harvesting the pure antimatter would cost them dearly in other resources as well.  If they do have one, one is likely all they have </t>
+ </page>
+</language> 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Christian (192.168.3.128) at 03.09.2015_15-26-35-->
+<macros>
+  <macro name="missile_impact_01_antimatter_macro" class="effectobject">
+    <component ref="missile_impact_01_antimatter" />
+    <properties>
+      <identification unique="0" />
+    </properties>
+  </macro>
+</macros>
