@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<diff>
-  	<add sel="/index">
-	<!-- antimatter torpedo -->
-	<!-- general -->
-	<entry name="missile_torpedo_heavy_antimatter_macro" value="extensions\mymod\assets\props\WeaponSystems\missiles\macros\missile_torpedo_heavy_antimatter_macro"/>
-	</add>
-</diff>
